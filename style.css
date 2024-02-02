@@ -1,0 +1,23 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#result {
+    background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#nhsLink {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#nhsLink:hover {
+    text-decoration: underline;
+}
