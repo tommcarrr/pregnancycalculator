@@ -40,11 +40,13 @@ function calculate() {
     const resultElement = document.getElementById('result');
     resultElement.innerHTML = `You are currently <strong>${weeksElapsed}</strong> weeks pregnant. <br>There are approximately <strong>${weeksRemaining}</strong> weeks until your due date.`;
 
+    
+    const resultsContainer = document.getElementById('results-container');
+    resultsContainer.style.display = 'block';
+
     // Generate the NHS link based on the week range
     const nhsLinkElement = document.getElementById('nhsLink');
     const nhs2LinkElement = document.getElementById('nhsLink2');
-    nhsLinkElement.style.display = 'block';
-    nhs2LinkElement.style.display = 'block';
     let weekRange = '';
     let trimester = '';
 
